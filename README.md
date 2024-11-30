@@ -23,16 +23,16 @@ The *Don't Patronize Me!* dataset is used, which includes text annotated for PCL
 - **Data Augmentation**: Upsampling of minority class using backtranslation and synonym replacement.  
 - **Loss Function**: Weighted cross-entropy to address class imbalance.
 
-### Improvements
-- Data preprocessing and augmentation strategies were tested to balance the dataset.
-- Keywords and country labels were appended to text to provide additional context.
-- Hyperparameter tuning was conducted to optimise model performance.
-
 ### Baseline Comparison
 Baseline models included:
 - Logistic Regression
 - TF-IDF
-- Bag of Words  
+- Bag of Words
+  
+### Improvements
+- Data preprocessing and augmentation strategies were tested to balance the dataset.
+- Keywords and country labels were appended to text to provide additional context.
+- Hyperparameter tuning was conducted to optimise model performance.
 
 The improved RoBERTa model outperformed these baselines, particularly in handling the minority class.
 
